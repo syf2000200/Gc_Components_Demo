@@ -1,9 +1,9 @@
 <template>
-  <span class="vue-cards-icon" @click="onClick" :style="{ fontSize: size +'px'}">
-    <svg v-if="symbol" class="vue-cards-icon__symbol" aria-hidden="true">
+  <span class="gc-icon" @click="onClick" :style="{ fontSize: size +'px'}">
+    <svg v-if="symbol" class="gc-icon__symbol" aria-hidden="true">
       <use :xlink:href="`#vc-icon-${name}`"></use>
     </svg>
-    <i v-else class="vue-cards-icon__font" :class="'vc-icon-' + name" :style="{ color: color }"></i>
+    <i v-else class="gc-icon__font" :class="'vc-icon-' + name" :style="{ color: color }"></i>
   </span>
 </template>
 <script>
@@ -46,3 +46,16 @@ export default create({
   }
 })
 </script>
+
+<style scoped>
+.gc-icon__symbol {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+</style>

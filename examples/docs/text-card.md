@@ -19,13 +19,13 @@
 ::: demo
 
 ```html
-<vue-cards-text class="demo-card" message="这是卡片内容"></vue-cards-text>
+<gc-text class="demo-card" message="这是卡片内容"></gc-text>
 
-<vue-cards-text
+<gc-text
   class="demo-card"
   theme-type="primary"
   message="这是卡片内容"
-></vue-cards-text>
+></gc-text>
 ```
 
 :::

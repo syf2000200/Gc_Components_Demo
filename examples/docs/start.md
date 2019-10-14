@@ -8,7 +8,7 @@
 <!-- {.md} -->
 
 ```
-npm install vue-cards-demo --save
+npm install gc-demo --save
 ```
 <!-- {.md} -->
 
@@ -16,15 +16,15 @@ npm install vue-cards-demo --save
 <!-- {.md} -->
 
 ```js
-import VueCards from 'vue-cards-demo' // 引入组件库
+import VueCards from 'gc-demo' // 引入组件库
 ```
 <!-- {.md} -->
 
 引入<!-- {.md} -->`px`或者`vw`布局样式
 
 ```js
-import 'vue-cards-demo/lib/theme-chalk/index.px.css' // px单位，适用于pc端布局
-import 'vue-cards-demo/lib/theme-chalk/index.vw.css' // vw单位，适用于移动端布局
+import 'gc-demo/lib/theme-chalk/index.px.css' // px单位，适用于pc端布局
+import 'gc-demo/lib/theme-chalk/index.vw.css' // vw单位，适用于移动端布局
 ```
 最后，全局使用组件库<!-- {.md} -->
 ```js
@@ -47,12 +47,12 @@ Vue.use(BaseCard)
 ```
 <!-- {.md} -->
 
-在模板中，用<!-- {.md} --> `<vue-cards-base></vue-cards-base>` 自定义标签的方式使用组件
+在模板中，用<!-- {.md} --> `<gc-base></gc-base>` 自定义标签的方式使用组件
 
 ```html
 <template>
   <div>
-    <vue-cards-base>这是一个基础卡片</vue-cards-base>
+    <gc-base>这是一个基础卡片</gc-base>
   </div>
 </template>
 ```

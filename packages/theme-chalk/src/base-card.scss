@@ -1,5 +1,5 @@
 @import "common/var.scss";
-@b vue-cards {
+@b gc {
   padding: 32px;
   display: inline-block;
   box-sizing: border-box;
@@ -53,15 +53,15 @@
   }
   @when overflow {
     padding-right: 0;
-    .vue-cards__footer {
+    .gc__footer {
       padding-right: 32px;
     }
-    .vue-cards__content__footer {
+    .gc__content__footer {
       padding-right: 32px;
     }
   }
   @when image {
-    .vue-cards__msg-status--loading {
+    .gc__msg-status--loading {
       position: absolute !important;
       top: 50%;
       margin-top: -14px;

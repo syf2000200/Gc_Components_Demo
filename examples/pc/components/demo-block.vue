@@ -1,6 +1,6 @@
 <template>
   <div class="docs-demo-wrapper">
-    <div :style="{height: isExpand ? 'auto' : '0'}" class="demo-container">
+    <div class="demo-container">
       <div span="14">
         <div class="docs-demo docs-demo--expand">
           <div class="highlight-wrapper">
@@ -58,6 +58,7 @@ export default {
   padding: 10px 0;
   background-color: #fafbfc;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .docs-demo__code,

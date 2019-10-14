@@ -1,7 +1,7 @@
 {
-  "name": "vue-cards-theme",
+  "name": "gc-theme",
   "version": "1.0.0",
-  "description": "vue-cards-theme component default theme.",
+  "description": "gc-theme component default theme.",
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",

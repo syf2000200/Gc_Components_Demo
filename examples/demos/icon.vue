@@ -3,7 +3,7 @@
     <ul class="icon-list">
       <li v-for="name in icons" :key="name">
         <div class="demo-icon-wrap">
-          <vue-cards-icon :name="name.substring(5)" :size="32"></vue-cards-icon>
+          <gc-icon :name="name.substring(5)" :size="32"></gc-icon>
           <span class="name">{{name.substring(5)}}</span>
         </div>
       </li>
@@ -54,7 +54,7 @@ export default {
       'Microsoft YaHei', SimSun, sans-serif;
     color: #626673;
   }
-  .vue-cards-icon {
+  .gc-icon {
     display: block;
     margin-bottom: 15px;
   }

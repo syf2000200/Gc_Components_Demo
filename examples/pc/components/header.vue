@@ -5,10 +5,8 @@
     :style="$route.name === 'index' ? 'box-shadow:none' : 'box-shadow:0 10px 60px 0 rgba(29,29,31,0.07)'"
   >
     <div class="header-container">
-      <a href="https://github.com/Eamonnzhang/vue-cards" target="__blank">
-        <vue-cards-icon name="cards" :size="50"></vue-cards-icon>
-        <span class="name">VueCards</span>
-      </a>
+      <gc-icon name="cards" :size="50"></gc-icon>
+      <span class="name">VueCards</span>
     </div>
   </header>
 </template>

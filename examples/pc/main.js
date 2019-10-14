@@ -6,7 +6,7 @@ import router from './router'
 import demoBlock from './components/demo-block.vue'
 import VueCards from '../../packages/index'
 // import '../lib/theme-chalk/index.css'
-import '../../packages/theme-chalk/lib/index.px.css'
+// import '../../packages/theme-chalk/lib/index.px.css'
 
 const Demos = []
 

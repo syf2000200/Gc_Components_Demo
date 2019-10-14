@@ -6,16 +6,16 @@
       <router-view class="view"></router-view>
     </div>
     <mainFooter></mainFooter>
-    <div class="mobile-toggle-wrap" @click="isMobileShow=true">
-      <vue-cards-icon
+    <!-- <div class="mobile-toggle-wrap" @click="isMobileShow=true">
+      <gc-icon
         class="mobile-toggle-wrap__icon"
         :symbol="false"
         :size="26"
         name="mobile"
         color="#628cf5"
-      ></vue-cards-icon>开启移动端预览
-    </div>
-    <mobile-frame v-if="isMobileShow" :show.sync="isMobileShow"></mobile-frame>
+      ></gc-icon>开启移动端预览
+    </div> -->
+    <mobile-frame></mobile-frame>
   </div>
 </template>
 
@@ -71,7 +71,7 @@ export default {
   }
   .view {
     float: left;
-    width: calc(100% - 215px);
+    width: calc(100% - 515px);
     padding: 32px 48px 48px;
     box-sizing: border-box;
   }

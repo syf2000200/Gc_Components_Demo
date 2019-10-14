@@ -8,9 +8,9 @@
 <!-- {.md} -->
 
 ```js
-git clone https://github.com/Eamonnzhang/vue-cards.git
+git clone https://github.com/Eamonnzhang/gc.git
 
-cd vue-cards
+cd gc
 
 # 初始化项目、安装依赖
 npm run init

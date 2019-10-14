@@ -1,22 +1,22 @@
 {
-  "name": "vue-cards-demo",
+  "name": "gc-demo",
   "version": "0.1.5",
-  "description": "基于Vue的卡片组件",
-  "main": "lib/vue-cards.common.js",
+  "description": "基于Vue的移动端组件库",
+  "main": "lib/gc.common.js",
   "style": "lib/theme-chalk/index.h5.css",
-  "homepage": "https://github.com/Eamonnzhang/vue-cards",
-  "author": "Eamonnzhang <5eamonn99@gmail.com>",
+  "homepage": "",
+  "author": "sunyf-c",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Eamonnzhang/vue-cards.git"
+    "url": ""
   },
   "scripts": {
     "init": "npm install commitizen -g && commitizen init cz-conventional-changelog --save-dev --save-exact && npm run bootstrap",
     "bootstrap": "npm install && cd ./packages/theme-chalk && npm install",
     "dev": "npm run build:entry && vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-cards --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name gc --dest lib packages/index.js",
     "clean": "rimraf lib && rimraf packages/*/lib",
     "dev:style": "gulp --gulpfile packages/theme-chalk/gulpfile.js",
     "build:docs": "vue-cli-service build",

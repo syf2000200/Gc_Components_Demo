@@ -18,6 +18,6 @@ ghpages.publish('dist', {
     name: 'EamonnZhang',
     email: '5eamonn99@gmail.com'
   },
-  repo: 'https://github.com/Eamonnzhang/vue-cards.git',
+  repo: 'https://github.com/Eamonnzhang/gc.git',
   message: `[deploy] ${GIT_COMMIT} - [release] ${VERSION}`
 });

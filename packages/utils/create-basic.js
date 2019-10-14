@@ -31,7 +31,7 @@ function defaultProps (props) {
 }
 
 export default function (sfc) {
-  sfc.name = 'vue-cards-' + sfc.name
+  sfc.name = 'gc-' + sfc.name
   sfc.install = sfc.install || install
   sfc.mixins = sfc.mixins || []
   sfc.mixins.push(bem)
