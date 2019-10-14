@@ -6,7 +6,7 @@
   >
     <div class="header-container">
       <gc-icon name="cards" :size="50"></gc-icon>
-      <span class="name">VueCards</span>
+      <span class="name">广材移动端组件库</span>
     </div>
   </header>
 </template>

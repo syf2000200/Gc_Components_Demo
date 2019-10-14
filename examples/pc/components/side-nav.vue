@@ -39,7 +39,7 @@ export default {
   display: inline-block;
   margin: 32px 0;
   padding: 0;
-  color: #3f536e;
+  color: #348ad3;
   background-color: #fff;
   z-index: 99;
   .group-container {
@@ -47,9 +47,8 @@ export default {
   }
   .side-nav-title {
     padding: 0 24px 8px;
-    color: #628cf5;
-    font-size: 12px;
-    font-weight: bold;
+    color: #666666;
+    font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 0.8;
@@ -62,7 +61,7 @@ export default {
       display: block;
       position: relative;
       padding: 8px 24px;
-      color: #3f536e;
+      color: #348ad3;
       font-weight: normal;
       line-height: 1.5;
       cursor: pointer;

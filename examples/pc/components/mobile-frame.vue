@@ -7,12 +7,12 @@
     <div class="iframe-wrap">
       <iframe :src="baseUrl+'mobile.html#/index'" id="mobileIframe" frameborder="0"></iframe>
     </div>
-    <gc-icon
+    <!-- <gc-icon
       name="close"
       class="docs-simulator__close"
       :size="32"
       @click="$emit('update:show',false)"
-    ></gc-icon>
+    ></gc-icon> -->
   </div>
 </template>
 <script>

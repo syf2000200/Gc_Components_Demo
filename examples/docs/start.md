@@ -16,7 +16,7 @@ npm install gc-demo --save
 <!-- {.md} -->
 
 ```js
-import VueCards from 'gc-demo' // 引入组件库
+import GcDemo from 'gc-demo' // 引入组件库
 ```
 <!-- {.md} -->
 
@@ -28,7 +28,7 @@ import 'gc-demo/lib/theme-chalk/index.vw.css' // vw单位，适用于移动端�
 ```
 最后，全局使用组件库<!-- {.md} -->
 ```js
-Vue.use(VueCards)
+Vue.use(GcDemo)
 ```
 <!-- {.md} -->
 
@@ -40,7 +40,7 @@ Vue.use(VueCards)
 
 ```js
 
-import { BaseCard } from 'VueCards'
+import { BaseCard } from 'GcDemo'
 
 Vue.use(BaseCard)
 

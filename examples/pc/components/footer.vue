@@ -1,7 +1,7 @@
 <template>
   <div class="page-footer">
     <a
-      href="https://github.com/Eamonnzhang/gc"
+      href=""
       target="_blank"
       class="page-footer__github-link"
     >

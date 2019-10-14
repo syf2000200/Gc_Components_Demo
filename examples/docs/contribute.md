@@ -8,7 +8,7 @@
 <!-- {.md} -->
 
 ```js
-git clone https://github.com/Eamonnzhang/gc.git
+git clone
 
 cd gc
 

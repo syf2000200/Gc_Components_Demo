@@ -7,7 +7,7 @@
   </span>
 </template>
 <script>
-import './iconfont.js'
+import './iconfonts.js'
 import create from '../utils/create-basic'
 export default create({
   name: 'icon',
