@@ -52,7 +52,7 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "signale": "^1.4.0",
     "uppercamelcase": "^3.0.0",
     "vue-markdown-loader": "^2.4.1",
